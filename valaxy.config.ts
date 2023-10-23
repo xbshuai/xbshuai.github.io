@@ -2,15 +2,15 @@
  * @Author: xbshuai 277889640@qq.com
  * @Date: 2023-10-22 17:36:18
  * @LastEditors: xbshuai 277889640@qq.com
- * @LastEditTime: 2023-10-23 21:24:52
+ * @LastEditTime: 2023-10-23 21:32:54
  * @FilePath: \Blog\valaxy.config.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
-import { defineValaxyConfig } from 'valaxy'
-import type { UserThemeConfig } from 'valaxy-theme-yun'
+import { defineValaxyConfig } from 'valaxy';
+import type { UserThemeConfig } from 'valaxy-theme-yun';
 import { addonWaline } from "valaxy-addon-waline";
 import { addonLightGallery } from 'valaxy-addon-lightgallery';
-import { addonComponents } from 'valaxy-addon-components'
+import { addonComponents } from 'valaxy-addon-components';
 
 // add icons what you will need
 const safelist = [
@@ -84,17 +84,12 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   unocss: { safelist },
 
-  mediumZoom: { enable: true },
-
-  comment: {
-    enable: true,
-  },
-
   addons: [
-    addonComponents(),
+    //addonComponents(),
     addonWaline({
       serverURL: 'https://www.pangpact.space/',
       pageview: true,
+      comment: true,
       dark: 'auto',
       requiredMeta: ['nick','mail'],
       locale:{
