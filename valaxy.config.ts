@@ -2,7 +2,7 @@
  * @Author: xbshuai 277889640@qq.com
  * @Date: 2023-10-22 17:36:18
  * @LastEditors: xbshuai 277889640@qq.com
- * @LastEditTime: 2023-10-23 21:32:54
+ * @LastEditTime: 2023-10-23 21:36:37
  * @FilePath: \Blog\valaxy.config.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
