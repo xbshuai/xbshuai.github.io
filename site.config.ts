@@ -1,13 +1,23 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://valaxy.site/',
+  // site config see site.config.ts
+  url: 'xbshuai.github.io',
   lang: 'zh-CN',
-  title: 'Valaxy Theme Yun',
+  title: '小胖PACT的博客 | PACT\'s blog',
+  subtitle: '',
   author: {
-    name: '云游君',
-  },
-  description: 'Valaxy Theme Yun Preview.',
+    name: '小胖PACT',
+    avatar: 'public/pact.jpg',
+    status:
+    {
+      emoji: '😐',
+      message: '不想上班喵'
+  }},
+  mode: 'auto',
+  lastUpdated: true,
+  favicon: '',
+  description: 'Life is struggle and like a loop',
   social: [
     {
       name: 'RSS',
@@ -23,7 +33,7 @@ export default defineSiteConfig({
     },
     {
       name: 'GitHub',
-      link: 'https://github.com/YunYouJun',
+      link: 'https://github.com/xbshuai',
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },
