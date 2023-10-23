@@ -8,6 +8,12 @@ dependencies:
   valaxy:
     specifier: 0.15.10
     version: registry.npmmirror.com/valaxy@0.15.10(@types/markdown-it@13.0.4)(@unhead/shared@1.7.4)(postcss@8.4.31)(typescript@5.2.2)(unhead@1.7.4)
+  valaxy-addon-lightgallery:
+    specifier: ^0.0.2
+    version: registry.npmmirror.com/valaxy-addon-lightgallery@0.0.2
+  valaxy-addon-waline:
+    specifier: ^0.1.1
+    version: registry.npmmirror.com/valaxy-addon-waline@0.1.1(typescript@5.2.2)(valaxy@0.15.10)
   valaxy-theme-yun:
     specifier: 0.15.10
     version: registry.npmmirror.com/valaxy-theme-yun@0.15.10
@@ -1190,6 +1196,22 @@ packages:
       - vue
     dev: false
 
+  registry.npmmirror.com/@waline/client@2.15.8(typescript@5.2.2):
+    resolution: {integrity: sha512-EBL7RXJUJs742miTvOU0Vt8NEmeJ63EN5TtSsYZfzjUdvEtlv+JsBbS5uiz3C9v5qV7Hz+XDZdc8nc13mG9vNQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@waline/client/-/client-2.15.8.tgz}
+    id: registry.npmmirror.com/@waline/client/2.15.8
+    name: '@waline/client'
+    version: 2.15.8
+    engines: {node: '>=14'}
+    dependencies:
+      '@vueuse/core': registry.npmmirror.com/@vueuse/core@10.5.0(vue@3.3.6)
+      autosize: registry.npmmirror.com/autosize@6.0.1
+      marked: registry.npmmirror.com/marked@4.3.0
+      vue: registry.npmmirror.com/vue@3.3.6(typescript@5.2.2)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
+    dev: false
+
   registry.npmmirror.com/abab@2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/abab/-/abab-2.0.6.tgz}
     name: abab
@@ -1317,6 +1339,12 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/asynckit/-/asynckit-0.4.0.tgz}
     name: asynckit
     version: 0.4.0
+    dev: false
+
+  registry.npmmirror.com/autosize@6.0.1:
+    resolution: {integrity: sha512-f86EjiUKE6Xvczc4ioP1JBlWG7FKrE13qe/DxBCpe8GCipCq2nFw73aO8QEBKHfSbYGDN5eB9jXWKen7tspDqQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/autosize/-/autosize-6.0.1.tgz}
+    name: autosize
+    version: 6.0.1
     dev: false
 
   registry.npmmirror.com/available-typed-arrays@1.0.5:
@@ -2960,6 +2988,13 @@ packages:
     version: 0.6.0
     dev: false
 
+  registry.npmmirror.com/lightgallery@2.7.2:
+    resolution: {integrity: sha512-Ewdcg9UPDqV0HGZeD7wNE4uYejwH2u0fMo5VAr6GHzlPYlhItJvjhLTR0cL0V1HjhMsH39PAom9iv69ewitLWw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/lightgallery/-/lightgallery-2.7.2.tgz}
+    name: lightgallery
+    version: 2.7.2
+    engines: {node: '>=6.0.0'}
+    dev: false
+
   registry.npmmirror.com/linkify-it@4.0.1:
     resolution: {integrity: sha512-C7bfi1UZmoj8+PQx22XyeXCuBlokoyWQL5pWSP+EI6nzRylyThouddufc2c1NDIcP9k5agmN9fLpA7VNJfIiqw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/linkify-it/-/linkify-it-4.0.1.tgz}
     name: linkify-it
@@ -3110,6 +3145,14 @@ packages:
       linkify-it: registry.npmmirror.com/linkify-it@4.0.1
       mdurl: registry.npmmirror.com/mdurl@1.0.1
       uc.micro: registry.npmmirror.com/uc.micro@1.0.6
+    dev: false
+
+  registry.npmmirror.com/marked@4.3.0:
+    resolution: {integrity: sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/marked/-/marked-4.3.0.tgz}
+    name: marked
+    version: 4.3.0
+    engines: {node: '>= 12'}
+    hasBin: true
     dev: false
 
   registry.npmmirror.com/mdn-data@2.0.30:
@@ -4287,6 +4330,29 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz}
     name: util-deprecate
     version: 1.0.2
+    dev: false
+
+  registry.npmmirror.com/valaxy-addon-lightgallery@0.0.2:
+    resolution: {integrity: sha512-pP8hmHMad1QxKzzh1GwjL3dC6/bm1Vpj9lYefwZ+EzOgSUaQ44LVeU2koA+C6c2iy5AaDZlZzZ7LLnvckanYJA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/valaxy-addon-lightgallery/-/valaxy-addon-lightgallery-0.0.2.tgz}
+    name: valaxy-addon-lightgallery
+    version: 0.0.2
+    dependencies:
+      lightgallery: registry.npmmirror.com/lightgallery@2.7.2
+    dev: false
+
+  registry.npmmirror.com/valaxy-addon-waline@0.1.1(typescript@5.2.2)(valaxy@0.15.10):
+    resolution: {integrity: sha512-IvVefifccHJP8asOGEBLf88298Xu1A6atH8qYo3bb+gKvUJBAzch0EvrvvFnP/J2ICHOwQbitSTYBHOqDY481g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/valaxy-addon-waline/-/valaxy-addon-waline-0.1.1.tgz}
+    id: registry.npmmirror.com/valaxy-addon-waline/0.1.1
+    name: valaxy-addon-waline
+    version: 0.1.1
+    peerDependencies:
+      valaxy: latest
+    dependencies:
+      '@waline/client': registry.npmmirror.com/@waline/client@2.15.8(typescript@5.2.2)
+      valaxy: registry.npmmirror.com/valaxy@0.15.10(@types/markdown-it@13.0.4)(@unhead/shared@1.7.4)(postcss@8.4.31)(typescript@5.2.2)(unhead@1.7.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
     dev: false
 
   registry.npmmirror.com/valaxy-theme-yun@0.15.10:
