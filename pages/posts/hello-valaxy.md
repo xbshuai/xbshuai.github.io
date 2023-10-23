@@ -7,6 +7,7 @@ tags:
   - valaxy
   - 笔记
 top: 1
+comment: true	# 打开评论
 ---
 
 ## Valaxy

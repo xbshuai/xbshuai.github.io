@@ -1,8 +1,12 @@
 ---
-title: 我的小伙伴们
-keywords: 链接
-description: 云游的小伙伴们
-links: https://www.yunyoujun.cn/friends/links.json
+layout: links
+title: 小胖的小伙伴们
+icon: ri:beer-line
+nav: false		# 关闭页面导航
+comment: false	# 关闭评论
+toc: false		# 关闭文章目录
+aside: false	# 关闭目录边栏
+links:			# 
 random: true
 ---
 

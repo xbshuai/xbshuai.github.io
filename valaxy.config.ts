@@ -2,17 +2,19 @@
  * @Author: xbshuai 277889640@qq.com
  * @Date: 2023-10-22 17:36:18
  * @LastEditors: xbshuai 277889640@qq.com
- * @LastEditTime: 2023-10-23 13:09:12
+ * @LastEditTime: 2023-10-23 21:24:52
  * @FilePath: \Blog\valaxy.config.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonWaline } from "valaxy-addon-waline";
+import { addonLightGallery } from 'valaxy-addon-lightgallery';
+import { addonComponents } from 'valaxy-addon-components'
 
 // add icons what you will need
 const safelist = [
-  'i-ri-home-line',
+  'ph:house-line-light',
 ]
 
 /**
@@ -31,7 +33,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
     },
     colors: {
-      primary: "#B22222", 
+      primary: "#D69B54",
     },
 
     fireworks: {
@@ -54,13 +56,19 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         name: '我的小伙伴们',
         url: '/links/',
-        icon: 'i-ri-genderless-line',
-        color: 'dodgerblue',
+        icon: 'ri:beer-line',
+        color: 'orange',
       },
       {
-        name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
+        name: '相册',
+        url: '/albums/',
+        icon: 'i-ri-gallery-line',
+        color: '#43abee',
+      },
+      {
+        name: '留言板',
+        url: '/message board/',
+        icon: 'ri:chat-heart-line',
         color: 'hotpink',
       },
     ],
@@ -76,20 +84,23 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   unocss: { safelist },
 
+  mediumZoom: { enable: true },
+
+  comment: {
+    enable: true,
+  },
+
   addons: [
+    addonComponents(),
     addonWaline({
-      serverURL: "https://waline-comment-alpha.vercel.app/",		// Waline服务链接
-      locale: {
-        placeholder: "填写qq邮箱或点击登录，可以展示个人头像",
-      },
-      comment: true,
+      serverURL: 'https://www.pangpact.space/',
       pageview: true,
-      emoji: [
-        "https://jsd.onmicrosoft.cn/gh/walinejs/emojis@latest/bmoji/",
-        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/weibo/",
-        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/qq/",
-        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/tieba/",
-      ],
+      dark: 'auto',
+      requiredMeta: ['nick','mail'],
+      locale:{
+        placeholder: '填写qq邮箱或点击登录，可以展示个人头像'
+      }
     }),
+    addonLightGallery(),
   ],
 })
