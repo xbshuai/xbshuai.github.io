@@ -2,7 +2,7 @@
  * @Author: xbshuai 277889640@qq.com
  * @Date: 2023-10-22 17:36:18
  * @LastEditors: xbshuai 277889640@qq.com
- * @LastEditTime: 2023-10-23 21:36:37
+ * @LastEditTime: 2023-10-23 22:35:16
  * @FilePath: \Blog\valaxy.config.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -82,20 +82,29 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
   },
 
-  unocss: { safelist },
-
   addons: [
-    //addonComponents(),
+    // addonComponents(),
     addonWaline({
-      serverURL: 'https://www.pangpact.space/',
-      pageview: true,
+      serverURL: "https://www.pangpact.space",
+      locale: {
+        placeholder: "填写qq邮箱或点击登录，可以展示个人头像~详情请见【留言板】板块",
+      },
       comment: true,
-      dark: 'auto',
-      requiredMeta: ['nick','mail'],
-      locale:{
-        placeholder: '填写qq邮箱或点击登录，可以展示个人头像'
-      }
+      pageview: true,
+      emoji: [
+        "https://jsd.onmicrosoft.cn/gh/walinejs/emojis@latest/bmoji/",
+        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/weibo/",
+        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/qq/",
+        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/tieba/",
+      ],
+      // recaptchaV3Key: "",
     }),
     addonLightGallery(),
   ],
+  
+  features: {
+      katex: true
+  },
+
+  unocss: { safelist },
 })
