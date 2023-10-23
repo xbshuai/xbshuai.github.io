@@ -2,7 +2,7 @@
 title: 小胖的小伙伴们
 keywords: 链接
 description: 小胖的小伙伴们
-links: 
+links: https://friends.yunyoujun.cn/links.json
 random: true
 ---
 
