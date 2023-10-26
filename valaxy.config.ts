@@ -2,7 +2,7 @@
  * @Author: xbshuai 277889640@qq.com
  * @Date: 2023-10-22 17:36:18
  * @LastEditors: xbshuai 277889640@qq.com
- * @LastEditTime: 2023-10-23 22:35:16
+ * @LastEditTime: 2023-10-26 16:33:31
  * @FilePath: \Blog\valaxy.config.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -54,10 +54,10 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     pages: [
       {
-        name: '我的小伙伴们',
-        url: '/links/',
-        icon: 'ri:beer-line',
-        color: 'orange',
+        name: '留言板',
+        url: '/comment/',
+        icon: 'i-ri-clipboard-line',
+        color: '#737de5',
       },
       {
         name: '相册',
@@ -65,27 +65,17 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-gallery-line',
         color: '#43abee',
       },
-      {
-        name: '留言板',
-        url: '/message board/',
-        icon: 'ri:chat-heart-line',
-        color: 'hotpink',
-      },
     ],
 
     footer: {
       since: 2023.10,
-      beian: {
-        enable: true,
-        icp: '',
-      },
     },
   },
 
   addons: [
-    // addonComponents(),
+    addonComponents(),
     addonWaline({
-      serverURL: "https://www.pangpact.space",
+      serverURL: 'https://www.pangpact.space/',
       locale: {
         placeholder: "填写qq邮箱或点击登录，可以展示个人头像~详情请见【留言板】板块",
       },

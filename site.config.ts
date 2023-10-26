@@ -2,7 +2,7 @@
  * @Author: xbshuai 277889640@qq.com
  * @Date: 2023-10-22 17:36:18
  * @LastEditors: xbshuai 277889640@qq.com
- * @LastEditTime: 2023-10-23 17:36:28
+ * @LastEditTime: 2023-10-26 16:47:13
  * @FilePath: \Blog\site.config.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -16,7 +16,7 @@ export default defineSiteConfig({
   subtitle: '',
   author: {
     name: '小胖PACT',
-    avatar: '/public/pact2.jpg',
+    avatar: '/pact2.jpg',
     status:
     {
       emoji: '😐',
@@ -75,17 +75,25 @@ export default defineSiteConfig({
     enable: true,
   },
 
+  mediumZoom: {
+    enable: true,
+  },
+
+
   sponsor: {
     enable: true,
-    title: '我很可爱，请给我钱！',
-    methods: [
+    title: '谢谢(❤ ω ❤)喵！',
+    description:"爱你哟(๑♡3♡๑)",
+    
+    /*methods: [
       {
         name: '支付宝',
         url: 'https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       }
-    ],
+    ],*/
+
   },
 
   statistics: {

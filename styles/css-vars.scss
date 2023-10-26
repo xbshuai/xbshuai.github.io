@@ -1,1 +1,28 @@
 // you can custom css vars here
+//   首页那条线
+.vertical-line-top, .vertical-line-bottom{
+    background: linear-gradient(#4d73ab 0,#ff7f50 100%);
+}
+
+// 首页的logo字颜色
+.char {
+    background-color:rgba(255,255,255,0);
+    color: #4d73ab;
+}
+
+// 中二文字的颜色
+.say {
+    color: #4d73ab;
+    border-top:#4d73ab;
+    border-bottom:#4d73ab;
+}
+
+.dark{
+    --banner-line-color:linear-gradient(#4d73ab 0,#ff7f50 100%);
+}
+
+
+// 更改夜晚模式下文章框的底色
+html.dark{
+    --va-c-bg-light:rgba(44,61,72, 0.5);
+}
