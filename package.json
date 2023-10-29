@@ -1,7 +1,7 @@
 {
   "name": "xiaopang_blog",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.15.10",
   "private": true,
   "scripts": {
     "build": "npm run build:ssg && npm run rss",
@@ -12,6 +12,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@waline/client": "^2.15.8",
     "valaxy": "0.15.10",
     "valaxy-addon-components": "^0.0.2",
     "valaxy-addon-lightgallery": "^0.0.2",

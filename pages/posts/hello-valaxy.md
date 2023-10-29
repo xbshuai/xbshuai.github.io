@@ -1,7 +1,6 @@
 ---
-title: Hello, Valaxy!
-date: 2022-04-01
-updated: 2022-04-01
+title: 我的第一篇博客
+date: 2023-10-27
 categories: Valaxy 笔记
 tags:
   - valaxy
