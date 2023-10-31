@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: xbshuai.github.io/sitemap.xml

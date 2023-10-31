@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>小胖PACT的博客 | PACT's blog</title>
+        <link>xbshuai.github.io/</link>
+        <description>Life is struggle and like a loop</description>
+        <lastBuildDate>Tue, 31 Oct 2023 03:31:20 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>小胖PACT的博客 | PACT's blog</title>
+            <url>xbshuai.github.io/pact2.jpg</url>
+            <link>xbshuai.github.io/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2023 © 小胖PACT</copyright>
+        <atom:link href="xbshuai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[我的第一篇博客]]></title>
+            <link>xbshuai.github.io/posts/hello-Blog</link>
+            <guid>xbshuai.github.io/posts/hello-Blog</guid>
+            <pubDate>Tue, 31 Oct 2023 03:30:10 GMT</pubDate>
+            <content:encoded><![CDATA[<p>费尽波折，终于在几天前将博客的各式功能添加齐全，虽然还有很多不懂的地方，但万幸该有该用的已经全部部署。</p>
+<p>第一篇博客每天都想写，但就是懒得动键盘，就像平时心中千言万语，纸上却只能画下寥寥几笔。看见既</p>
+]]></content:encoded>
+            <author>i@valaxy.site (小胖PACT)</author>
+        </item>
+    </channel>
+</rss>

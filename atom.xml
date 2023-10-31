@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>xbshuai.github.io/</id>
+    <title>小胖PACT的博客 | PACT's blog</title>
+    <updated>2023-10-31T03:31:20.095Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>小胖PACT</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="xbshuai.github.io/"/>
+    <link rel="self" href="xbshuai.github.io/feed.atom"/>
+    <subtitle>Life is struggle and like a loop</subtitle>
+    <logo>xbshuai.github.io/pact2.jpg</logo>
+    <icon>xbshuai.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2023 © 小胖PACT</rights>
+    <entry>
+        <title type="html"><![CDATA[我的第一篇博客]]></title>
+        <id>xbshuai.github.io/posts/hello-Blog</id>
+        <link href="xbshuai.github.io/posts/hello-Blog"/>
+        <updated>2023-10-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>费尽波折，终于在几天前将博客的各式功能添加齐全，虽然还有很多不懂的地方，但万幸该有该用的已经全部部署。</p>
+<p>第一篇博客每天都想写，但就是懒得动键盘，就像平时心中千言万语，纸上却只能画下寥寥几笔。看见既</p>
+]]></content>
+        <author>
+            <name>小胖PACT</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-10-31T03:30:10.884Z</published>
+    </entry>
+</feed>
