@@ -11,8 +11,8 @@ export default defineSiteConfig({
     avatar: '/pact2.jpg',
     status:
     {
-      emoji: '😐',
-      message: '不想上班喵'
+      emoji: '🥲',
+      message: '我只是假装坚强'
   }},
   mode: 'auto',
   lastUpdated: true,
