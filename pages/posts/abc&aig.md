@@ -1,6 +1,7 @@
 ---
 title: 如何使用abc工具生成miter
-date: 2024-3-14
+date: 2024-03-14
+updated: 2024-03-14
 categories: 学术研究
 tags:
   - abc工具使用

@@ -78,8 +78,8 @@ export default defineSiteConfig({
 
   sponsor: {
     enable: true,
-    title: '谢谢(❤ ω ❤)喵！',
-    description:"爱你哟(๑♡3♡๑)",
+    title: '我喜欢你❤！',
+    description:"赞我赞我(๑♡3♡๑)",
     
     /*methods: [
       {

@@ -1,6 +1,7 @@
 ---
 title: 我的第一篇博客
 date: 2023-10-31
+updated: 2023-10-31
 categories: 生活随笔
 tags:
   - 随便写写
