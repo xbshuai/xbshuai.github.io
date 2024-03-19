@@ -16,7 +16,7 @@ export default defineSiteConfig({
   }},
   mode: 'auto',
   lastUpdated: true,
-  favicon: '',
+  favicon: '/website.svg',
   description: 'Life is struggle and like a loop',
   social: [
     {
