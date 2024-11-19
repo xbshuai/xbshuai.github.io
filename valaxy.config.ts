@@ -66,6 +66,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   addons: [
     addonComponents(),
+    /*
     addonWaline({
       serverURL: 'https://www.pangpact.space/',
       locale: {
@@ -80,7 +81,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/tieba/",
       ],
       // recaptchaV3Key: "",
-    }),
+    }),*/
     addonLightGallery(),
   ],
   
