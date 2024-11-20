@@ -81,8 +81,8 @@ export default defineValaxyConfig<UserThemeConfig>({
         "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/tieba/",
       ],
       // recaptchaV3Key: "",
-    }),*/
-    addonLightGallery(),
+    }),
+    addonLightGallery(),*/
   ],
   
   features: {
