@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>小胖PACT的博客 | PACT's blog</title>
+        <link>xbshuai.github.io/</link>
+        <description>Life is struggle and like a loop</description>
+        <lastBuildDate>Wed, 20 Nov 2024 03:21:07 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>小胖PACT的博客 | PACT's blog</title>
+            <url>xbshuai.github.io/pact2.jpg</url>
+            <link>xbshuai.github.io/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © 小胖PACT</copyright>
+        <atom:link href="xbshuai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[WSL2无法打开的问题及解决]]></title>
+            <link>xbshuai.github.io/posts/wsl2_problem1</link>
+            <guid>xbshuai.github.io/posts/wsl2_problem1</guid>
+            <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>问题描述</h2>
+<p>在某次更新后，WSL突然挂掉，无法打开，因为Clion的CMake配置都在WSL的Linux系统中，所以需要尝试除了重新安装以外的解决方法。报错信息如下：</p>
+<pre><code class="language-shell">Fai</code></pre>
+]]></content:encoded>
+            <author>i@valaxy.site (小胖PACT)</author>
+        </item>
+        <item>
+            <title><![CDATA[傅里叶变换入门课程]]></title>
+            <link>xbshuai.github.io/posts/Fourier_transform</link>
+            <guid>xbshuai.github.io/posts/Fourier_transform</guid>
+            <pubDate>Tue, 29 Oct 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>仅仅用作个人学习记录！！</h3>
+<hr>
+<blockquote>
+<p>原视频地址：[傅里叶变换入门课程](<a href="https://www.bilibili.com/video/BV1oz1eYVECp/?share_sour">https://www.bilibili.com/video/BV1oz1eYVECp/?share_sour</a></p>
+</blockquote>
+]]></content:encoded>
+            <author>i@valaxy.site (小胖PACT)</author>
+        </item>
+        <item>
+            <title><![CDATA[栀子花]]></title>
+            <link>xbshuai.github.io/posts/Gardenia</link>
+            <guid>xbshuai.github.io/posts/Gardenia</guid>
+            <pubDate>Mon, 01 Jul 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>想写这篇很久了，在上周不知道为什么在房间里闻到了一股很像栀子花的味道，于是便动了写篇博客的意思，也是这两个月简单更新一下吧</p>
+</blockquote>
+<p>来北京数年了，几乎已经没有再见过栀子花，久到我都快忘了它的味道，那是</p>
+]]></content:encoded>
+            <author>i@valaxy.site (小胖PACT)</author>
+        </item>
+        <item>
+            <title><![CDATA[五一出行DAY3]]></title>
+            <link>xbshuai.github.io/posts/2024_05_03</link>
+            <guid>xbshuai.github.io/posts/2024_05_03</guid>
+            <pubDate>Fri, 03 May 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>早上7点50醒了，想着抢两周后去武汉的车票给hk过农历生日，但是这钱不如省下来买个礼物算了，唉，有点不知所措，等后面再问他吧。</p>
+<p>9点半下楼吃酒店的早餐，还挺丰盛的，我对门那家好像今天就走了。</p>
+<p>10</p>
+]]></content:encoded>
+            <author>i@valaxy.site (小胖PACT)</author>
+        </item>
+        <item>
+            <title><![CDATA[五一出行DAY2]]></title>
+            <link>xbshuai.github.io/posts/2024_05_02</link>
+            <guid>xbshuai.github.io/posts/2024_05_02</guid>
+            <pubDate>Thu, 02 May 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>9点才醒，先去吃翔子米皮吧</p>
+<p>先看看边家村hh，2010的边家村</p>
+<p>9点40才到翔子米皮，点了一碗手工米皮，辣油拌米粉，想家里的凉面了。等会从长乐门上城墙然后建国门下。</p>
+<p>10点20，路过一家正新鸡排</p>
+]]></content:encoded>
+            <author>i@valaxy.site (小胖PACT)</author>
+        </item>
+        <item>
+            <title><![CDATA[五一出行DAY1]]></title>
+            <link>xbshuai.github.io/posts/2024_05_01</link>
+            <guid>xbshuai.github.io/posts/2024_05_01</guid>
+            <pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>上午7点20出发，8点半就到了北京西，出于意料的北京西站里没有什么人，可能是太早了。</p>
+<p>倒霉没有抢到靠窗的位置。</p>
+<p>旁边的人本来应该是个大叔，但是好像跟一个女生换位置了，女生化了好浓的妆，妆挺香的。</p>
+]]></content:encoded>
+            <author>i@valaxy.site (小胖PACT)</author>
+        </item>
+        <item>
+            <title><![CDATA[Reverse words]]></title>
+            <link>xbshuai.github.io/posts/reverse_words</link>
+            <guid>xbshuai.github.io/posts/reverse_words</guid>
+            <pubDate>Thu, 25 Apr 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>题目</h3>
+<p>Complete the function that accepts a string parameter, and reverses each word in the string</p>
+]]></content:encoded>
+            <author>i@valaxy.site (小胖PACT)</author>
+        </item>
+        <item>
+            <title><![CDATA[我的奇怪责任观]]></title>
+            <link>xbshuai.github.io/posts/my_life_responsibility</link>
+            <guid>xbshuai.github.io/posts/my_life_responsibility</guid>
+            <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>在近半年，责任二字可能是我和朋友们聊天说到最多次关于价值观的词汇。从我个人角度出发，我不喜欢将一些反映个人品质的问题拿在台面上成为谈资，在我自己都没能完美践行的情况下，这些严肃话题迟早有天会变成深夜</p>
+]]></content:encoded>
+            <author>i@valaxy.site (小胖PACT)</author>
+        </item>
+        <item>
+            <title><![CDATA[入党谈话问题与回答]]></title>
+            <link>xbshuai.github.io/posts/入党谈话问题与回答整理</link>
+            <guid>xbshuai.github.io/posts/入党谈话问题与回答整理</guid>
+            <pubDate>Tue, 19 Mar 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>就要进行入党谈话了，花点时间准备整理一下可能会问到的问题，不想一个问题就哑口无言了。等谈话结束再回来修改一番。</p>
+<p>1、谈谈申请入党的原因？<br>
+我志愿加入中国共产党，是因为中国共产党是个伟大的党</p>
+]]></content:encoded>
+            <author>i@valaxy.site (小胖PACT)</author>
+        </item>
+        <item>
+            <title><![CDATA[如何使用abc工具生成miter]]></title>
+            <link>xbshuai.github.io/posts/abc&amp;aig</link>
+            <guid>xbshuai.github.io/posts/abc&amp;aig</guid>
+            <pubDate>Thu, 14 Mar 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>ABC下载及安装</h3>
+<p>ABC介绍：见<a href="https://people.eecs.berkeley.edu/~alanmi/abc/">ABC官网</a></p>
+<p>ABC下载：直接于GitHub的ABC库中下载源</p>
+]]></content:encoded>
+            <author>i@valaxy.site (小胖PACT)</author>
+        </item>
+        <item>
+            <title><![CDATA[Essential C++ chapter 01 学习]]></title>
+            <link>xbshuai.github.io/posts/EC++_Chapter_01</link>
+            <guid>xbshuai.github.io/posts/EC++_Chapter_01</guid>
+            <pubDate>Sat, 02 Mar 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>仅仅用作个人学习记录！！</h3>
+<hr>
+<h4>递增运算符(++)和递减运算符(--)：</h4>
+<ul>
+<li>前置（prefix）形式：原值先递增（或递减）之后，才被拿来使用。</li>
+<li>后置（post</li>
+</ul>
+]]></content:encoded>
+            <author>i@valaxy.site (小胖PACT)</author>
+        </item>
+        <item>
+            <title><![CDATA[我的第一篇博客]]></title>
+            <link>xbshuai.github.io/posts/hello-Blog</link>
+            <guid>xbshuai.github.io/posts/hello-Blog</guid>
+            <pubDate>Tue, 31 Oct 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>费尽波折，终于在几天前将博客的各式功能添加齐全，虽然还有很多不懂的地方，但万幸该有该用的已经全部部署。</p>
+<p>第一篇博客每天都想写，但就是懒得动键盘，就像平时心中千言万语，纸上却只能画下寥寥几笔。看见既</p>
+]]></content:encoded>
+            <author>i@valaxy.site (小胖PACT)</author>
+        </item>
+    </channel>
+</rss>
