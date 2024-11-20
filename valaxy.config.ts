@@ -66,9 +66,9 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   addons: [
     addonComponents(),
-    /*
+    
     addonWaline({
-      serverURL: 'https://www.pangpact.space/',
+      serverURL: 'https://waline-comment-alpha.vercel.app/',
       locale: {
         placeholder: "填写qq邮箱或点击登录，可以展示个人头像~详情请见【留言板】板块",
       },
@@ -82,7 +82,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       ],
       // recaptchaV3Key: "",
     }),
-    addonLightGallery(),*/
+    // addonLightGallery(),
   ],
   
   features: {

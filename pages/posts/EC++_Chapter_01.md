@@ -7,7 +7,7 @@ tags:
   - Essential C++
   - 编程语言学习
 top: 1
-comment: false	# 打开评论
+comment: true	# 打开评论
 ---
 
 ### 仅仅用作个人学习记录！！

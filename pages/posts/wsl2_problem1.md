@@ -7,7 +7,7 @@ tags:
   - WSL2
   - Linux
 top: 1
-comment: false	# 打开评论
+comment: true	# 打开评论
 ---
 
 ## 问题描述
