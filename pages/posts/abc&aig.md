@@ -7,7 +7,7 @@ tags:
   - abc工具使用
   - aig格式
 top: 1
-comment: true	# 打开评论
+comment: false	# 打开评论
 ---
 ### ABC下载及安装
 ABC介绍：见[ABC官网](https://people.eecs.berkeley.edu/~alanmi/abc/)

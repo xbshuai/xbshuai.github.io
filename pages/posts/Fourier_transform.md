@@ -6,7 +6,7 @@ categories: 工科基础
 tags:
   - 傅里叶变换
 top: 1
-comment: true	# 打开评论
+comment: false	# 打开评论
 ---
 
 ### 仅仅用作个人学习记录！！
